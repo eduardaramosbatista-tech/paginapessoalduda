@@ -12,18 +12,20 @@ color: white;
 width: 100%;
 padding: 20px;
 }
-.cabecalho-itens{
-max-width: 1980px;
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
+.cabecalho-itens {
+  max-width: 1980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  /* Distribui os 3 blocos: esquerda, centro e direita */
+  justify-content: space-between; 
+  padding: 10px 40px;
 }
-.cabecalho-imagem{
-width: 10%;
-display: flex;
-justify-content: flex-start;
-align-items: center;
+
+/* Ajuste do tamanho do logo */
+.cabecalho-imagem {
+  max-width: 60px; /* Define um tamanho fixo pequeno de logo */
+  height: auto;
 }
 .titulo_site{
 padding: 50px;
