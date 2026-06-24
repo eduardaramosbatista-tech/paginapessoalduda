@@ -24,8 +24,8 @@ padding: 20px;
 
 /* Ajuste do tamanho do logo */
 .cabecalho-imagem {
-  max-width: 100px; /* Define um tamanho fixo pequeno de logo */
-  height: auto;
+  max-width: 50px; /* Define um tamanho fixo pequeno de logo */
+  height: 50px;
 }
 .titulo_site{
 padding: 10x;
