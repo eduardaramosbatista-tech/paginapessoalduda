@@ -1,45 +1,126 @@
-header{
-background-color: #270101d1;
-color: red;
-width: 100%;
-padding: 20px;
-}
-.titulo_site{
-padding: 10px;
-text-align: center;
-width: 50%;
-font-size: 30px;
-font-weight: bold;
-color: white;
-}
-.estudante{
-background-color:#faae43;
-padding:24px 0;
-}
-.estudante-div{
-text-align:center;
-padding:24px 0;
-}
-.estudante-div-texto{
-width:80%;
-margin:auto;
-text-align:center;
-font-size:18px;
-line-height:1.8;
+```css
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#f8f8f8;
 }
 
-.estudante-nome{
-font-size:22px;
-font-weight:bold;
+/* Cabeçalho */
+
+header{
+    background-color:#270101d1;
+    color:white;
+    width:100%;
+    padding:20px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.cabecalho-imagem{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+
+.titulo_site{
+    padding:10px;
+    text-align:center;
+    font-size:32px;
+    font-weight:bold;
+    color:white;
 }
 
 .logo-insta{
-width:35px;
-height:35px;
+    width:35px;
+    height:35px;
+    transition:0.3s;
 }
 
-.banner1 img{
-width:100%;
-max-height:350px;
-object-fit:cover;
+.logo-insta:hover{
+    transform:scale(1.1);
 }
+
+/* Banner */
+
+.banner1 img{
+    width:100%;
+    max-height:400px;
+    object-fit:cover;
+    display:block;
+}
+
+/* Títulos */
+
+.estudante_titulo{
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+    color:#270101d1;
+    font-size:34px;
+}
+
+/* Cards */
+
+.estudante-div{
+    text-align:center;
+    padding:20px;
+    width:280px;
+    margin:25px auto;
+
+    background:white;
+    border-radius:15px;
+
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+}
+
+.estudante-imagem{
+    width:100%;
+    border-radius:10px;
+}
+
+.estudante-nome{
+    font-size:22px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+/* Texto */
+
+.estudante{
+    background-color:#faae43;
+    padding:40px 0;
+    margin-top:40px;
+}
+
+.estudante-div-texto{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.estudante-div-texto h2{
+    color:#270101d1;
+    margin-top:20px;
+}
+
+/* Redes sociais */
+
+.sociais{
+    text-align:center;
+    margin:20px;
+}
+
+/* Rodapé opcional */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background-color:#270101d1;
+    color:white;
+    margin-top:30px;
+}
+```
