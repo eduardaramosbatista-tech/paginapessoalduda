@@ -19,12 +19,12 @@ padding: 20px;
   align-items: center;
   /* Distribui os 3 blocos: esquerda, centro e direita */
   justify-content: space-between; 
-  padding: 10px 40px;
+  padding: 20px 40px;
 }
 
 /* Ajuste do tamanho do logo */
 .cabecalho-imagem {
-  max-width: 10px; /* Define um tamanho fixo pequeno de logo */
+  max-width: 100px; /* Define um tamanho fixo pequeno de logo */
   height: auto;
 }
 .titulo_site{
