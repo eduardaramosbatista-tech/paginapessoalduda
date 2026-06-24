@@ -63,16 +63,18 @@ header{
 
 /* Cards */
 
+.container-cards {
+diplay: flex;
+justify-content: center;
+gap: 20px;
+flex-warp: warp;
+}
 .estudante-div{
-    text-align:center;
-    padding:20px;
-    width:280px;
-    margin:25px auto;
-
-    background:white;
-    border-radius:15px;
-
-    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+text-aling:center
+padding:280px;
+margin25px auto;
+background:white;
+box-shadow:0 3px 10px rgba (0,0,0,0. 15);
 }
 
 .estudante-imagem{
