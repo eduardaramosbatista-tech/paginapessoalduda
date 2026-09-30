@@ -1,4 +1,4 @@
-```css
+
 body{
     margin:0;
     font-family:Arial, Helvetica, sans-serif;
@@ -40,6 +40,31 @@ header{
 
 .logo-insta:hover{
     transform:scale(1.1);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
 }
 
 /* Banner */
@@ -122,64 +147,4 @@ footer{
     background-color:#270101d1;
     color:white;
     margin-top:30px;
-}
-```
-.dropdown-content a {
-  color: black.dropbtn {
-  background-color: #4CAF50;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown {
-  position: relative;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-widt;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333333;
-}
-
-ul li {
-  float: left;
-}
-
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #111111;
 }
